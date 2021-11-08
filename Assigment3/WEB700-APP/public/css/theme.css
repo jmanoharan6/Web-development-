@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Monoton&family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+body,html{
+    background: linear-gradient(rgba(0, 247, 255, 0.986), rgb(248, 192, 255));
+    box-shadow: inset 30px 0px 9px teal;
+    overflow: auto;
+    background-size: cover;
+}
+
+.navbar-brand{
+    font-family: 'Monoton', cursive;
+    text-shadow: 2px 2px rgb(255, 172, 47);
+}
+
+.nav-item{ 
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.nav-item:hover{
+    background-color: rgb(220, 190, 240);
+    border-radius: 5px;
+}
+table{
+    width: 100%;
+    padding-left:40px;
+    padding-right:40px;
+    border: solid;
+}
+
+tr:nth-child(odd){
+    background: linear-gradient(pink,rgb(231, 217, 231));
+   
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Stick', sans-serif;
+    text-shadow: 2px 2px lightcoral;
+    color: rgb(94, 90, 89);
+}
+
+a{
+    color: maroon;
+}
+
+a:hover{
+    color: midnightblue;
+}
+
+.btn-primary{
+    background: linear-gradient(rgb(54, 49, 50),rgb(150, 13, 150));
+    box-shadow: -10px -10px 9px rgb(204, 132, 182);
+}
+
+.btn-primary:hover{
+    background: linear-gradient(rgb(47, 47, 53),rgb(103, 56, 231));
+}
+
+legend{
+    font-family: 'Niconne', cursive;
+    color: indigo;
+    text-shadow: 2px 2px plum;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
